@@ -15,8 +15,10 @@ export function MoviesPage(props){
 
     useEffect(() => {
         dispatch(getMovies())                                           //using dispatch with the action to retrive the movies data from the server
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
+    // eslint-disable-next-line no-unused-vars
     const {path,url}=useRouteMatch()                                    //used to get the route to set neated routes
 
     let state=useSelector(state=>state.movies)

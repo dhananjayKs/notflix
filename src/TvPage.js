@@ -13,6 +13,7 @@ export function TvPage(props){
     useEffect(() => {
         dispatch(getTv())                                               //getting the tv data from the server 
         
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const {path,url}=useRouteMatch()

@@ -35,6 +35,7 @@ export function SearchBar(props){
         console.log('changes')
         dispatch(getSearch(value))                                  //rerenders the search data on change in input field
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[value])
 
 

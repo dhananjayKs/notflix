@@ -17,6 +17,7 @@ function App(props) {
 
   useEffect(() => {
     dispatch(getConfig())
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   
   let select=useSelector(state=>state)

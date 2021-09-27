@@ -21,6 +21,7 @@ export function MovieDetails(props){
         console.log('id: '+id)
         dispatch(getDetails('movie',id))                    //Calls the get details action to set the Details of the selected 
                                                             //component after getting it from the server to the Redux store
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [JSON.stringify(selected,undefined,4)])              //set dependency array to the string, as setting it as an object will render it every time as the object address changes
 
 

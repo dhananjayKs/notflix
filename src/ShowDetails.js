@@ -27,6 +27,7 @@ export function ShowDetails(props){
         console.log('id: '+id)
         dispatch(getDetails('tv',id))                                      //getting the details of the show from the server
         
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [JSON.stringify(selected,undefined,4)])                             //setting the dependency array item to a string
 
     
