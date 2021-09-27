@@ -1,0 +1,45 @@
+.searchCard{
+    position: relative;
+    width: 30rem;
+    height: 6rem;
+    border: slateblue solid 1px;
+    margin-bottom: 2px;
+    background-color: aliceblue;
+}
+.searchImgCont{
+    display: inline-block;
+    height: 6rem;
+    width: 6rem;
+    overflow: hidden;
+    position: relative;
+    margin: auto 0;
+}
+.searchImgCont>img{
+    height: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.searchCardTitle{
+    display: inline-block;
+    margin: auto 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.searchCardScore{
+    display: inline-block;
+    margin: auto 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0,-50%);
+    height: 6rem;
+    width:6rem;
+    line-height: 6rem;
+    background-color: darkseagreen;
+}

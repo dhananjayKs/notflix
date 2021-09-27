@@ -1,0 +1,17 @@
+.links{
+    width:8rem;
+    display: inline-block;
+    height: 2rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2rem;
+    color: aliceblue;
+}
+.navBar{
+    background-color: slateblue;
+    height: 2rem;
+}
+.active{
+    background-color: aliceblue;
+    color: black;
+}

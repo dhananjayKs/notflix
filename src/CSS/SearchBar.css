@@ -1,0 +1,31 @@
+.search{
+    position: absolute  ;
+    top:0%;
+    right: 3rem;
+    width: 30rem;
+    height:auto;
+    outline: black solid 1px;
+    background-color: aqua;
+    border-radius: 3px;
+    z-index: 10;
+}
+.search::-webkit-scrollbar{
+    display: none;
+}
+.searchBar{
+    width: 30rem;
+    height: 2rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-indent: 1rem;
+}
+.searchContainer{
+    height: auto;
+    overflow: scroll;
+    min-height: 0;
+    max-height: 28rem;
+    
+}
+.searchContainer::-webkit-scrollbar{
+    display: none;
+}

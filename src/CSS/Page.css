@@ -1,0 +1,19 @@
+.page{
+    position: absolute;
+    top: 4rem;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    overflow: scroll;
+    background-color:black;
+    
+}
+.page::-webkit-scrollbar {
+    display: none;
+  }
+.categoryName{
+    text-transform: uppercase;
+    padding: 2rem 4rem;
+    background-color: slateblue;
+    color: aliceblue;
+}

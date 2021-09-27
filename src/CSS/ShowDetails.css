@@ -1,0 +1,44 @@
+.mainPosterContainer{
+    width:50%;
+    display: inline-block;
+    position: relative;
+    height: 800px;
+}
+.mainPosterContainer>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showDetails{
+    width:50%;
+    position: relative;
+    display: inline-block;
+    height: 800px;
+    margin: auto 0;
+    background-color: slateblue;
+}
+.showDetailsContainer{
+    position: relative;
+    height: auto;
+    color: aliceblue;
+}
+.showText{
+    height: 800px;
+    width:70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    margin-left: 2rem;
+    margin-top: 3rem;
+    
+}
+.lables{
+    display: inline-block;
+    width: 10rem;
+    font-weight: 700;
+}
+p{
+    margin-top: 0.5rem;
+}
