@@ -1,5 +1,5 @@
 import React from "react";
-import './CSS/Card.css'
+//import './CSS/Card.css'
 import { useDispatch } from "react-redux";
 /*
 Template
@@ -25,12 +25,12 @@ export function Card(props){
     }
     
     return(
-        <div className='product' onClick={onSelect} >
-            <div className='cardImgCont'>
-                <img className='cardImg'  src={`${props.baseUrl}${props.posterSize}${props.data.poster_path}`} alt={`${props.title}`} />  
+        <div className='w-192 h-360 border-0 border-blue-50 rounded-md bg-blue-100  my-6 mx-4 overflow-hidden' onClick={onSelect} >
+            <div className='overflow-hidden h-9/10' >
+                <img className='w-full h-9/10'  src={`${props.baseUrl}${props.posterSize}${props.data.poster_path}`} alt={`${props.title}`} />  
             </div>
             
-            <p className='name'>{props.title}</p>
+            <p className='text-center text-base overflow-hidden text-black-800 h-1/10 w-full px-2 font-semibold '>{props.title}</p>
             <p className='name'>{props.selected}</p>
         </div>
     )
